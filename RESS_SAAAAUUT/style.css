@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+}
+
+ul {
+    list-style: none;
+}
+
+.width_header_shfs {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.width_header_shfs a {
+    /* margin-top: 30px; */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    display: block;
+}
+
+.align {
+    align-items: center;
+}
+
+header {
+    margin-bottom: 120px;
+}
+
+h1 {
+    font-size: 100px;
+    width: 80%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.first_scr h4 {
+    color: white;
+}
+
+.first_scr p {
+    color: white;
+    font-size: 17px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.check_servise_btn {
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-clip: content-box;
+    background: linear-gradient(to right, #fc531a 30%, #f12c2e 110%);
+    transition: all 2s;
+}
+
+.check_servise_btn:hover {
+    background: #287ff5;
+}
+
+.first_scr {
+    background-image: url(./img/truck_first_main.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 170px;
+}
+
+.position_conatiner_info {
+    position: absolute;
+    background-color: #ebebf1;
+    width: 1600px;
+    height: 100px;
+    z-index: 2;
+    top: 600px;
+    padding: 30px 30px;
+}
+
+.flexit {
+    display: flex;
+}
+
+.card_main_info_text {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card_main_info_text h2 {
+    width: 50%;
+}
+
+.card_info_wdjd img {
+    object-fit: cover;
+}
+
+.info_us_conatiner {
+    margin-left: 50px;
+}
+
+.name_conataner {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.name_compani {
+    font-size: 50px;
+}
+
+.styled_name_two {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.text_opus_compani_p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.left_text {
+    margin-left: 20px;
+}
+
+.check_img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    padding-top: -50px;
+}
+
+.first_name {
+    text-align: center;
+    margin-bottom: 110px;
+    background: linear-gradient(to right, #fc531a 30%, #f12c2e 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.left_text2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tetx_p_main_info_tetx {
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.btn_read_more_a {
+    /* padding-top: 90px; */
+    padding: 20px 50px;
+    background: linear-gradient(to right, #fc531a 30%, #f12c2e 60%);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 2s;
+}
+
+.btn_read_more_a:hover {
+    background: #287ff5;
+}
+
+.two_scr {
+    margin-bottom: 220px;
+}
+
+.servies_conatainer_name {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #fc531a 30%, #f12c2e 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.h2_text_name_src {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.background_image_main_photo_car {
+    background-image: url(./img/qwert.jpg);
+    width: 100%;
+    height: 340px;
+    background-position: center center;
+}
+
+.cards_perevoz {
+    width: 400px;
+}
+
+.cards_perevoz2 {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.cards_perevoz img {
+    z-index: 2;
+    margin-top: -50px;
+}
+
+.perevos_transport_name {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.info_tetx_perevoz_transport_P {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.more_datails_btn_sf {
+    padding: 10px 90px;
+    border: 1px solid #f43828;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    /* margin-bottom: 50px; */
+    transition: all 1s;
+}
+
+.more_datails_btn_sf:hover {
+    background-color: #287ff5;
+    /* border-radius: 10px; */
+    border: none;
+    color: white;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.padding2 {
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.tree_scr {
+    margin-bottom: 120px;
+}
+
+.info_container_about_compani {
+    margin-left: 100px;
+}
+
+.tetx_why_first_in_this_card {
+    margin-bottom: 30px;
+}
+
+.name_this_conatiner_font_size_main {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.dop_text_fo_main_text {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.left_task {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.four_scr {
+    margin-bottom: 120px;
+}
+
+.how_it_work_h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.tetx_naim_this_container_h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.dop_text_main_name_conatiner_h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.name_class_unde_im_card_info_h4 {
+    text-align: center;
+}
+
+.dop_text_info_card_p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.main_button_first_scr {
+    padding: 10px 30px;
+    background: linear-gradient(to right, #fc531a 30%, #f12c2e 110%);
+    border-radius: 10px;
+    margin-top: 23px;
+}
+
+/*! ________________ */
+.img_left_dla_text {
+    margin-left: 80px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.img_left_dla_text:hover {
+    transform: scale(1.10);
+}
+
+/*! ________________ */
+
+.five_scr {
+    margin-bottom: 120px;
+}
+
+.conatct_numb {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pupul_main_in_companni_about_text_now {
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.main_slog_compani_perevos {
+    font-size: 50px;
+    /* width: 60%; */
+}
+
+.dop_tetx_in_h2_humen_h3 {
+    font-size: 30px;
+}
+
+.card_info_humen_in_this_compani1 {
+    padding: 30px;
+    /* height: 400px; */
+    background-color: #f5eceb;
+    text-align: center;
+    width: 370px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.card_info_humen_in_this_compani {
+    padding: 30px;
+    /* height: 400px; */
+    background-color: #f5eceb;
+    text-align: center;
+    width: 370px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.name_men_in_card {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.profession_men_in_this_card_p {
+    color: #f0286c;
+    margin-bottom: 18px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    /* або інше значення display за потребою */
+    /* margin: 0 auto; */
+}
+
+.input-container h2 {
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #f3f2f5;
+    background: #287ff5;
+    font-size: 30px;
+    width: 1000px;
+    margin-left: 100px;
+    color: white;
+}
+
+.input-container input {
+    padding-right: 40px;
+    /* Задаємо правий відступ для місця кнопки */
+    /* Інші стилі для input */
+}
+
+.input-container button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 54px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #040675d6, rgb(0, 64, 255));
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    box-shadow: 0px 0px 20px 0px #0d0f8a;
+}
+
+.info_dop_text_for_sayt {
+    margin-bottom: 10px;
+}
+
+.background_image_for_kompani {
+    background-image: url(./img/info_for_kompani.png);
+    height: 800px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    height: 460px;
+    background-image: url(img/info_for_kompani.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element{
+    transform: translateY(50px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
